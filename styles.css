@@ -1,0 +1,84 @@
+/* .caveat-font {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <400 to 700>;
+  font-style: normal;
+}
+
+.figtree-font {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <300 to 900>;
+  font-style: normal;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    text-align: center;
+}
+
+.topnav {
+    background-color: #d6e3dc;
+    opacity: 80%;
+    overflow: hidden;
+    position: sticky;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #163154;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.logo {
+  float: left;
+  display: block;
+  color: #163154;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+
+.banner {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    text-align: center;
+    background-color: #163154;
+    color: white;
+    padding: 60px;
+}
+
+.banner h2 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.about {
+  margin: 0;
+  height: 500px;
+  background: #163154;
+  background: linear-gradient(180deg, rgba(22, 49, 84, 1) 0%, rgba(226, 213, 223, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
