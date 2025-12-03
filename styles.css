@@ -60,18 +60,36 @@ body {
 
 
 .banner {
-    font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
+    position: relative;
+    font-family: "Patrick Hand", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
     text-align: center;
-    background-color: #163154;
-    color: white;
-    padding: 60px;
+    color: #163154;
+    padding: 80px 20px;
+    background-image: url(images/banner_temp.jpg);
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-cursor-area {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
 }
 
 .banner h2 {
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
+    font-family: "Figtree", sans-serif;
+    color: black;
+    font-size: 20px;
     font-weight: 600;
     margin-top: -10px;
 }
